@@ -200,12 +200,26 @@ p {
 }
 
 .head {
-    color: red;
+    color: #2a9d8f;
     font-size: 3.7rem;
     font-family: "Poppins",sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .5rem;
+}
+
+.head2{
+    color:#2a9d8f;
+    font-size: 6rem;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem; 
+}
+
+
+.head1{
+    color: red;
 }
 
 .circle {
@@ -449,7 +463,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #3bcc75;
+        background-color:#2a9d8f;
         display: none;
     }
 
