@@ -52,6 +52,11 @@ p {
     padding: 0 2.4rem;
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+ }
+
 /*header*/
 
 .header {
@@ -168,11 +173,6 @@ p {
 
 /*---------------------*/
 
-.sticky{
-   position: sticky;
-   top: 0;
-}
-
 /*hero*/
 
 .hero {
@@ -243,6 +243,11 @@ p {
     text-align: center;
     margin-top: 5px;
 }
+
+/*.sticky{
+    position: sticky;
+    top: 0;
+ }*/
 
 .dis-sto .global {
     margin-top: 5.9rem;
@@ -403,6 +408,10 @@ footer {
     justify-content: center;
 }
 
+.sticky h2{
+  color:#3bcc75;
+}
+
 .social-icons i {
     font-size: 2rem;
     color: #3bcc75;
@@ -537,8 +546,7 @@ footer {
         display: grid;
         grid-template-columns: max-content;
     }*/
-
-
+    .res-des,
     .pad-rig,
     .res-info {
         display: flex;
@@ -547,6 +555,7 @@ footer {
         justify-content: center;
     }
 
+    .res-des,
     .pad-rig,
     .res-info img{
         width: 100%;
@@ -555,6 +564,7 @@ footer {
         justify-content: center;
     }
 
+    res.des,
     .pad-rig,
     .res-info p{
         width: 100%;
