@@ -79,11 +79,11 @@ p {
     z-index: 1000;
 }
 
-/*.menu .logo{
+.menu .logo{
     font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
-}*/
+}
 
 .menu .navbar ul li{
     position: relative;
@@ -106,9 +106,8 @@ p {
     display:none;
 }
 
-.menu-icono{
+.menu-bars{
     width: 25px;
-    color: #ffcd31;
 }
 
 .menu label{
