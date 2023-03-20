@@ -605,7 +605,9 @@ footer {
 
     .linkin p{
         margin-top: 10px;
+        font-size: 10px;
         text-align: center;
+        justify-content: center;
     }
 
     .footer-content-about {
