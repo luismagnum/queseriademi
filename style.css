@@ -42,7 +42,7 @@ a {
 
 p {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 
@@ -100,7 +100,7 @@ p {
 }
 
 .menu .navbar ul li a:hover{
-    color: red;
+    color: #edb312;
 }
 
 #menu{
@@ -180,7 +180,7 @@ p {
 
 
 .nav-link:hover {
-    color:red;
+    color:#edb312;
 }
 
 /*---------------------*/
@@ -193,7 +193,7 @@ p {
     justify-content: center;
 }
 
-.title h1{
+.title h2{
     display: flex;
     text-align: center;
     justify-content: center;
