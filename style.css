@@ -119,7 +119,7 @@ p {
 }
 
 .label img{
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 75%;
 }
 
@@ -170,9 +170,9 @@ p {
 
 
 .logo {
-    margin-top: -65px;
+    margin-top: -100px;
     width: 140px;
-    height: 150px;
+    height: 160px;
 }
 
 
@@ -214,7 +214,7 @@ p {
 
 .h2-sub {
     font-size: 3rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-family: "Poppins",sans-serif;
     color: #000;
     font-weight: 300;
@@ -229,7 +229,7 @@ p {
 
 .head {
     color: #000;
-    font-size: 3.7rem;
+    font-size: 4.7rem;
     font-family: "Poppins",sans-serif;
     text-transform: uppercase;
     font-weight: 900;
@@ -268,7 +268,7 @@ p {
 
 .global {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 /*.sticky{
@@ -293,7 +293,7 @@ p {
 
 
 .global .h2-sub {
-    margin-top: 10px;
+    margin-top: 30px;
     letter-spacing: -1px;
     line-height: .42;
 }
@@ -312,18 +312,20 @@ p {
 }
 
 .res-info img{
-    width: 380px;
+    width:400px;
     margin-right: 0 auto;
 }
 
 
 .res-des {
+    margin-top: 25px;
     margin-bottom: 3rem;
 }
 
+
 .res-des p {
     line-height: 1,6;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -345,7 +347,7 @@ p {
 .image-group {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .image-group img{
@@ -354,7 +356,7 @@ p {
 
 .image-group img{
     width: 360px;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-right: 60px;
 }
 
