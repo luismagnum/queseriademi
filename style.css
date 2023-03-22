@@ -93,7 +93,8 @@ p {
 }
 
 .menu .navbar ul li a{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     padding: 8px;
     color:#000;
     display: block;
@@ -160,10 +161,6 @@ p {
     transform: scale(1);
 }*/
 
-.queseria {
-    text-align: center;
-    justify-content: center;
-}
 
 .logo{
     display: flex;
@@ -175,7 +172,7 @@ p {
 .logo {
     margin-top: -65px;
     width: 140px;
-    height: 140px;
+    height: 150px;
 }
 
 
@@ -197,8 +194,10 @@ p {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 30px;
-    font-weight: 300;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
     color: #edb312;
 }
 
@@ -313,8 +312,8 @@ p {
 }
 
 .res-info img{
-    width: 360px;
-    margin-right: 60px;
+    width: 380px;
+    margin-right: 0 auto;
 }
 
 
@@ -374,7 +373,7 @@ p {
 footer {
     padding: 7.9rem 0;
     background-color: #121212;
-    color:#923330;
+    color:#edb312;
     text-align: center;
     position: relative;
 }
@@ -411,7 +410,7 @@ footer {
 
 .linkin p{
     margin-top: 8px;
-    color: #923330;
+    color: #edb312;
 }
 
 .imagen{
@@ -450,7 +449,7 @@ footer {
 
 .social-icons i:hover,
 .social-icons i:focus {
-    color: #ffc845;
+    color:#edb312;
 }
 
 .social-link{
@@ -461,7 +460,7 @@ footer {
 
 .social-link a{
     font-size: 20px;
-    color:#923330;
+    color:#edb312;
     margin: 0 20px;
     display: block;
 }
@@ -469,7 +468,7 @@ footer {
 .links{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .links a{
@@ -484,7 +483,7 @@ footer {
 }
 
 .deve{
-    color:#923330;
+    color:#edb312;
 }
 
 @media(max-width:991px) {
@@ -547,7 +546,7 @@ footer {
     .logo{
         margin-top: 15px;
         width: 70px;
-        height: 70px;
+        height: 80px;
     }
 
 
