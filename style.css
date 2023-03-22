@@ -17,6 +17,7 @@ html {
 }
 
 body {
+    background-color:#923330;
     overflow-x: hidden;
 }
 
@@ -93,8 +94,8 @@ p {
 
 .menu .navbar ul li a{
     font-size: 18px;
-    padding: 20px;
-    color: #fff4ff;
+    padding: 8px;
+    color:#000;
     display: block;
 }
 
@@ -122,7 +123,7 @@ p {
 }
 
 .header-img{
-   width: 50%;
+   width: 100%;
 }
 
 .header-img img{
@@ -159,10 +160,22 @@ p {
     transform: scale(1);
 }*/
 
+.queseria {
+    text-align: center;
+    justify-content: center;
+}
+
 .logo{
-    margin-top: 25px;
-    width: 120px;
-    height: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.logo {
+    margin-top: -65px;
+    width: 140px;
+    height: 140px;
 }
 
 
@@ -173,6 +186,22 @@ p {
 /*---------------------*/
 
 /*hero*/
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.title h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #edb312;
+}
+
 
 .hero {
     width: 100%;
@@ -198,8 +227,9 @@ p {
     font-size: 3rem;
 }
 
+
 .head {
-    color: #2a9d8f;
+    color: #000;
     font-size: 3.7rem;
     font-family: "Poppins",sans-serif;
     text-transform: uppercase;
@@ -208,22 +238,21 @@ p {
 }
 
 .head2{
-    color:#2a9d8f;
+    color:#000;
     font-size: 6rem;
     font-family: "Poppins",sans-serif;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: .5rem; 
 }
 
 
 .head1{
-    color: red;
+    color: #000;
 }
 
 .circle {
     font-size: 1.5rem;
-    color:red;
     margin: 0 1.6rem;
 }
 
@@ -240,7 +269,7 @@ p {
 
 .global {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 /*.sticky{
@@ -279,6 +308,8 @@ p {
 
 .res-info img{
     width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 
 .res-info img{
@@ -343,7 +374,7 @@ p {
 footer {
     padding: 7.9rem 0;
     background-color: #121212;
-    color: #edb312;
+    color:#923330;
     text-align: center;
     position: relative;
 }
@@ -380,7 +411,7 @@ footer {
 
 .linkin p{
     margin-top: 8px;
-    color: #edb312;
+    color: #923330;
 }
 
 .imagen{
@@ -430,7 +461,7 @@ footer {
 
 .social-link a{
     font-size: 20px;
-    color:#edb312;
+    color:#923330;
     margin: 0 20px;
     display: block;
 }
@@ -453,7 +484,7 @@ footer {
 }
 
 .deve{
-    color:#01beaa;
+    color:#923330;
 }
 
 @media(max-width:991px) {
@@ -471,7 +502,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color:#2a9d8f;
+        background-color:#edb312;
         display: none;
     }
 
@@ -479,9 +510,9 @@ footer {
         width: 100%;
     }
 
-    .menu .navbar ul li a{
+    /*.menu .navbar ul li a{
         color: #400e00;
-    }
+    }*/
 
     .menu .navbar ul li a:hover{
         color:#515151
@@ -503,6 +534,16 @@ footer {
         bottom: -3px;
     }
 
+    .herop{
+        max-width: 100%;
+        height: 30vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
     .logo{
         margin-top: 15px;
         width: 70px;
@@ -515,10 +556,23 @@ footer {
         height: 50px;
     }
 
+    .head2{
+        font-size: 40px;
+    }
+
+
+    .head2 h2{
+        font-weight: 600;
+    }
+
+    .head1{
+        font-size: 20px;
+    }
+
 
     .h2-sub {
         text-align: center;
-        margin-top: 5px;
+        margin-top: 60px;
         font-size: 3rem;
     }
 
@@ -549,8 +603,8 @@ footer {
 
 
     .head {
-        font-size: 3rem;
-        letter-spacing: .8rem;
+        font-size: 2rem;
+        letter-spacing: .6rem;
     }
 
     /*.image-group {
@@ -605,7 +659,7 @@ footer {
 
     .linkin p{
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
         justify-content: center;
     }
