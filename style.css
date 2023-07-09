@@ -372,6 +372,7 @@ p {
     height: 70vh;
     background-image: url("https://t4.ftcdn.net/jpg/04/24/06/61/240_F_424066157_ohTR1tk51mBOujbogQaAKfHE5vjeCWGq.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*footer*/
